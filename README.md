@@ -12,13 +12,13 @@ Social media has increasingly relied on memes as a tool for expressing opinions,
 ## Proposed Methodology  
 
 ### Approach 1: Unimodal Sentiment Analysis Framework for Bangla Captions  
-![Unimodal Text Methodology](https://github.com/eftekhar-hossain/MemoSen-LREC2022/tree/main/images/Unimodal_Text_Methodology.JPG)  
+![Unimodal Text Methodology](Unimodal_Text_Methodology.jpg)  
 
 ### Approach 2: Unimodal Sentiment Analysis Framework for Meme Images  
-![Unimodal Image Methodology](https://github.com/eftekhar-hossain/MemoSen-LREC2022/tree/main/images/Unimodal_Image_Methodology.JPG)  
+![Unimodal Image Methodology](Unimodal_Image_Methodology.jpg)  
 
 ### Approach 3: Exploring Different Fusion Techniques in Multimodal Sentiment Analysis  
-![Multimodal Methodology](https://github.com/eftekhar-hossain/MemoSen-LREC2022/tree/main/images/Multimodal_Methodology.JPG)  
+![Multimodal Methodology](Multimodal_Methodology.jpg)  
 
 
     
