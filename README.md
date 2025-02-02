@@ -5,9 +5,9 @@ Social media has increasingly relied on memes as a tool for expressing opinions,
 ## Table of Contents
 - [Proposed Methodology](#experimental-methodology)
 - [Dataset Availability](#dataset-availability)
-- [Results](#results)
-- [Citation](#citation)
+- [Result Analysis](#results-analysis)
 - [Contact Information](#contact-information)
+- [Citation](#citation)
 
 ## Proposed Methodology  
 
@@ -22,8 +22,7 @@ Social media has increasingly relied on memes as a tool for expressing opinions,
 
 
     
-## MemoSen Dataset for Bengali Multimodal Sentiment Analysis  
-
+## Dataset Availability
 In this study, we leverage the [MemoSen](https://github.com/eftekhar-hossain/MemoSen-LREC2022) dataset, a multimodal resource specifically curated for sentiment analysis in the Bengali language, to conduct our experiments. MemoSen was meticulously developed to address the lack of resources for multimodal sentiment analysis in Bengali. The dataset comprises **4,368 memes** collected from **Facebook, Twitter, and Instagram** between **February 2021 and September 2021**, using keywords such as **"Bengali Memes," "Bengali Funny Memes,"** and **"Bengali Troll Memes"** to ensure a diverse representation. The dataset includes memes with captions in **Bengali, code-mixed (Bengali and English), or Banglish (code-switched)**. During curation, memes lacking visual or textual components, containing unreadable text, or being duplicates were removed. The final dataset is annotated into three sentiment categories: **Positive, Negative, and Neutral**, following strict guidelines to ensure consistency and reduce annotation bias. For training and evaluation, the dataset is split into **train (70%), test (20%), and validation (10%)** subsets.
 
 ## Result Analysis
@@ -90,25 +89,20 @@ For any questions, collaboration opportunities, or further inquiries, please fee
 - **Fatema Tuj Johora Faria**
   - Email: [fatema.faria142@gmail.com](mailto:fatema.faria142@gmail.com)
 
-- **Mukaffi Bin Moin**
-  - Email: [mukaffi28@gmail.com](mailto:mukaffi28@gmail.com)
-
-- **Pronay Debnath**
-  - Email: [pronaydebnath99@gmail.com](mailto:pronaydebnath99@gmail.com)
-- **Asif Iftekher Fahim**
-  - Email: [fahimthescientist@gmail.com](mailto:fahimthescientist@gmail.com)
     
 ## Citation
 
 If you find the dataset or the associated research work helpful, please consider citing our paper:
 
 ```bibtex
-@misc{faria2023vashantor,
-  title={Vashantor: A Large-scale Multilingual Benchmark Dataset for Automated Translation of Bangla Regional Dialects to Bangla Language},
-  author={Fatema Tuj Johora Faria and Mukaffi Bin Moin and Ahmed Al Wase and Mehidi Ahmmed and Md. Rabius Sani and Tashreef Muhammad},
-  year={2023},
-  eprint={2311.11142},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL}
+@article{202501.1587,
+	doi = {10.20944/preprints202501.1587.v1},
+	url = {https://doi.org/10.20944/preprints202501.1587.v1},
+	year = 2025,
+	month = {January},
+	publisher = {Preprints},
+	author = {Fatema Tuj Johora Faria and Laith H. Baniata and Mohammad H. Baniata and Mohannad A. Khair and Ahmed Ibrahim Bani Ata and Chayut Bunterngchit and Sangwoo Kang},
+	title = {SentimentFormer: A Transformer-Based Multi-Modal Fusion Framework for Enhanced Sentiment Analysis of Memes in Under-Resourced Bangla Language},
+	journal = {Preprints}
 }
 
