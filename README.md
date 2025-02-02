@@ -15,43 +15,7 @@ Social media has increasingly relied on memes as a tool for expressing opinions,
     
 ## MemoSen Dataset for Bengali Multimodal Sentiment Analysis  
 
-In this study, we leverage the [MemoSen](https://github.com/eftekhar-hossain/MemoSen-LREC2022) dataset, a multimodal resource specifically curated for sentiment analysis in the Bengali language, to conduct our experiments. MemoSen was meticulously developed to address the lack of resources for multimodal sentiment analysis in Bengali.  
-
-The dataset comprises **4,368 memes** collected from popular social media platforms such as **Facebook, Twitter, and Instagram** over a period spanning **February 2021 to September 2021**. The memes were gathered using targeted keywords such as:  
-
-- **"Bengali Memes"**  
-- **"Bengali Funny Memes"**  
-- **"Bengali Troll Memes"**  
-
-This ensured a diverse representation across various themes. The dataset includes memes with captions written in **Bengali, code-mixed (Bengali and English), or Banglish (code-switched)**.  
-
-### Dataset Curation  
-Memes failing to meet specific criteria were excluded during curation, including:  
-- Lack of visual or textual components  
-- Unreadable text  
-- Duplicate entries  
-
-The final dataset is annotated into three sentiment categories:  
-✅ **Positive**  
-❌ **Negative**  
-⚪ **Neutral**  
-
-To ensure consistency and reduce annotation bias, rigorous guidelines were followed during the annotation process.  
-
-### Data Splits  
-The dataset is divided into the following subsets for training and evaluation:  
-- **Train:** 70%  
-- **Test:** 20%  
-- **Validation:** 10%  
-
-A **detailed class-wise distribution** is provided, along with **representative examples of memes**, including their captions and corresponding sentiment labels.  
-
-### Dataset Access  
-📂 **[GitHub Repository](https://github.com/eftekhar-hossain/MemoSen-LREC2022)** – The dataset and related resources are available here.  
-🖼️ **[Sample Image (Dataset_1.png)](https://github.com/eftekhar-hossain/MemoSen-LREC2022/tree/main/images)** – View a sample dataset image.  
-
-The MemoSen dataset serves as a crucial benchmark for advancing research in **multimodal sentiment analysis**, especially for **low-resource languages such as Bengali**.  
-
+In this study, we leverage the [MemoSen](https://github.com/eftekhar-hossain/MemoSen-LREC2022) dataset, a multimodal resource specifically curated for sentiment analysis in the Bengali language, to conduct our experiments. MemoSen was meticulously developed to address the lack of resources for multimodal sentiment analysis in Bengali. The dataset comprises **4,368 memes** collected from **Facebook, Twitter, and Instagram** between **February 2021 and September 2021**, using keywords such as **"Bengali Memes," "Bengali Funny Memes,"** and **"Bengali Troll Memes"** to ensure a diverse representation. The dataset includes memes with captions in **Bengali, code-mixed (Bengali and English), or Banglish (code-switched)**. During curation, memes lacking visual or textual components, containing unreadable text, or being duplicates were removed. The final dataset is annotated into three sentiment categories: **Positive, Negative, and Neutral**, following strict guidelines to ensure consistency and reduce annotation bias. For training and evaluation, the dataset is split into **train (70%), test (20%), and validation (10%)** subsets.
 
 ## Results
 ### Performance Evaluation of Pretrained CNNs for Fundus Image Classification
