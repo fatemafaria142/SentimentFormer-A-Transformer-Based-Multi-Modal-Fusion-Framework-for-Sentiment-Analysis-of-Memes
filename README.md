@@ -36,7 +36,7 @@ In this study, we leverage the [MemoSen](https://github.com/eftekhar-hossain/Mem
 |               | DistilBERT                           | 71.48    | 60.90     | 66.14  | 62.29             |
 |---------------|---------------------------------------|----------|-----------|--------|-------------------|
 |               | ViT                                  | 62.77    | 53.26     | 59.70  | 54.14             |
-| Image Based   | Swin Transformer (SentimentImageFormer) | 64.72    | 53.39     | 57.39  | 54.24             |
+| Image Based   | Swin Transformer (SentimentImageFormer) | 64.72    | 53.39     | 57.39  | 54.24          |
 |               | Swift Transformer                    | 63.57    | 53.90     | 59.84  | 54.79             |
 
 ### Performance Metrics for Multimodal-Based Models with Early Fusion
