@@ -95,14 +95,16 @@ For any questions, collaboration opportunities, or further inquiries, please fee
 If you find the dataset or the associated research work helpful, please consider citing our paper:
 
 ```bibtex
-@article{202501.1587,
-	doi = {10.20944/preprints202501.1587.v1},
-	url = {https://doi.org/10.20944/preprints202501.1587.v1},
-	year = 2025,
-	month = {January},
-	publisher = {Preprints},
-	author = {Fatema Tuj Johora Faria and Laith H. Baniata and Mohammad H. Baniata and Mohannad A. Khair and Ahmed Ibrahim Bani Ata and Chayut Bunterngchit and Sangwoo Kang},
-	title = {SentimentFormer: A Transformer-Based Multi-Modal Fusion Framework for Enhanced Sentiment Analysis of Memes in Under-Resourced Bangla Language},
-	journal = {Preprints}
+@Article{electronics14040799,
+AUTHOR = {Faria, Fatema Tuj Johora and Baniata, Laith H. and Baniata, Mohammad H. and Khair, Mohannad A. and Bani Ata, Ahmed Ibrahim and Bunterngchit, Chayut and Kang, Sangwoo},
+TITLE = {SentimentFormer: A Transformer-Based Multimodal Fusion Framework for Enhanced Sentiment Analysis of Memes in Under-Resourced Bangla Language},
+JOURNAL = {Electronics},
+VOLUME = {14},
+YEAR = {2025},
+NUMBER = {4},
+ARTICLE-NUMBER = {799},
+URL = {https://www.mdpi.com/2079-9292/14/4/799},
+ISSN = {2079-9292},
+ABSTRACT = {Social media has increasingly relied on memes as a tool for expressing opinions, making meme sentiment analysis an emerging area of interest for researchers. While much of the research has focused on English-language memes, under-resourced languages, such as Bengali, have received limited attention. Given the surge in social media use, the need for sentiment analysis of memes in these languages has become critical. One of the primary challenges in this field is the lack of benchmark datasets, particularly in languages with fewer resources. To address this, we used the MemoSen dataset, designed for Bengali, which consists of 4368 memes annotated with three sentiment labels: positive, negative, and neutral. MemoSen is divided into training (70%), test (20%), and validation (10%) sets, with an imbalanced class distribution: 1349 memes in the positive class, 2728 in the negative class, and 291 in the neutral class. Our approach leverages advanced deep learning techniques for multimodal sentiment analysis in Bengali, introducing three hybrid approaches. SentimentTextFormer is a text-based, fine-tuned model that utilizes state-of-the-art transformer architectures to accurately extract sentiment-related insights from Bengali text, capturing nuanced linguistic features. SentimentImageFormer is an image-based model that employs cutting-edge transformer-based techniques for precise sentiment classification through visual data. Lastly, SentimentFormer is a hybrid model that seamlessly integrates both text and image modalities using fusion strategies. Early fusion combines textual and visual features at the input level, enabling the model to jointly learn from both modalities. Late fusion merges the outputs of separate text and image models, preserving their individual strengths for the final prediction. Intermediate fusion integrates textual and visual features at intermediate layers, refining their interactions during processing. These fusion strategies combine the strengths of both textual and visual data, enhancing sentiment analysis by exploiting complementary information from multiple sources. The performance of our models was evaluated using various accuracy metrics, with SentimentTextFormer achieving 73.31% accuracy and SentimentImageFormer attaining 64.72%. The hybrid model, SentimentFormer (SwiftFormer with mBERT), employing intermediate fusion, shows a notable improvement in accuracy, achieving 79.04%, outperforming SentimentTextFormer by 5.73% and SentimentImageFormer by 14.32%. Among the fusion strategies, SentimentFormer (SwiftFormer with mBERT) achieved the highest accuracy of 79.04%, highlighting the effectiveness of our fusion technique and the reliability of our multimodal framework in improving sentiment analysis accuracy across diverse modalities.},
+DOI = {10.3390/electronics14040799}
 }
-
